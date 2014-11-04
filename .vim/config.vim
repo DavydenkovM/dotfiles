@@ -24,6 +24,8 @@ set undodir=~/.vim/.undo
 
 set path=.,**             " Paths to find files in
 
+set mouse=a
+
 " UI
 set ruler          " Ruler on
 set relativenumber " Relative line numbers
