@@ -45,7 +45,7 @@ set listchars+=precedes:<   " Indicate that text continues beyond the left of th
 set encoding=utf-8
 set noshowmode     " Don't show the mode since lightline shows it
 set title          " Set the title of the window in the terminal to the file
-set laststatus=2
+set laststatus=2   " Display the status line always
 set cursorline
 
 set nolazyredraw   " Make plugins smoother
