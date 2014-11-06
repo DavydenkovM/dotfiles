@@ -78,7 +78,7 @@ set ignorecase " Case insensitive search
 set smartcase  " Non-case sensitive search
 set incsearch  " Show matches while typing
 set hlsearch   " Highlight search
-set wildignore+=.git
+set wildignore+=.git,tmp/*,log/*,coverage/*
 
 " Sounds
 set noerrorbells

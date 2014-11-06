@@ -46,9 +46,6 @@ nnoremap <Leader>p :set paste<CR>:read !xclip -o<CR>:set nopaste<CR>
 " Jump to start and end of line using the home row keys
 noremap H 0
 noremap L $
-map 0 <NOP>
-map _ <NOP>
-map $ <NOP>
 
 " Disable Ex mode, run last macro instead
 nnoremap Q @@
@@ -56,9 +53,6 @@ nnoremap Q @@
 " Swap jumping, ' is closer, so use it to jump to line and column
 nnoremap ' `
 nnoremap ` '
-
-" Easier redo
-nnoremap U <C-r>
 
 " Send to tmux
 vmap <leader>c <Plug>SendSelectionToTmux
@@ -106,3 +100,6 @@ nnoremap <leader>a :Ag<Space>
 
 " Toggle spell check
 nmap <leader>k :set spell!<CR>
+
+source ~/dotfiles/.vim/bindings/cntrlp.vim
+

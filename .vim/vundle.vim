@@ -21,7 +21,7 @@ Bundle 'gmarik/vundle'
 " christoomey/vim-tmux-navigator
 
 " Fuzzy search
-" Bundle 'kien/ctrlp.vim'
+Bundle 'kien/ctrlp.vim'
 " Bundle 'Shougo/unite.vim'
 
 " No char-wise navigation, please
