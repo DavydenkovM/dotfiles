@@ -101,5 +101,5 @@ nnoremap <leader>a :Ag<Space>
 " Toggle spell check
 nmap <leader>k :set spell!<CR>
 
-source ~/dotfiles/.vim/bindings/cntrlp.vim
+source ~/.vim/bindings/cntrlp.vim
 
