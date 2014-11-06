@@ -35,7 +35,7 @@ nnoremap <leader>z :bp<CR>
 nnoremap <leader>x :bn<CR>
 
 " Select previously pasted text
-nnoremap gv `[v`]
+" nnoremap gv `[v`]
 
 " Yank to the end of line
 nnoremap Y y$
