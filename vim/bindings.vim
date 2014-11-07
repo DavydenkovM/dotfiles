@@ -89,7 +89,11 @@ cmap <Right> <Nop>
 cmap <Left>  <Nop>
 
 " No highlight search
-nnoremap <leader><Space> :nohlsearch<CR>
+nnoremap <leader><F2> :nohlsearch<CR>
+
+" netrw
+nmap <leader><BS> :e<Space>%:h<tab><CR>
+nmap <leader><Space> :e.<CR>
 
 " Expand region bindings
 vmap v <Plug>(expand_region_expand)
