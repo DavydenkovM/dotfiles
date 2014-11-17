@@ -129,6 +129,8 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 Bundle 'slim-template/vim-slim'
+Bundle 'gaogao1030/vim-skim'
+Bundle 'kchmck/vim-coffee-script'
 
 
 Bundle 'sunaku/vim-ruby-minitest'
