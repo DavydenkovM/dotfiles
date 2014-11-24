@@ -106,4 +106,5 @@ nnoremap <leader>a :Ag<Space>
 nmap <leader>k :set spell!<CR>
 
 source ~/.vim/bindings/cntrlp.vim
+source ~/.vim/bindings/qargs.vim
 
