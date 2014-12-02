@@ -90,6 +90,7 @@ cmap <Left>  <Nop>
 
 " No highlight search
 nnoremap <leader><F2> :nohlsearch<CR>
+nnoremap <leader><F3> :e<Space>~/Dropbox/docs/ruby_scripts/example.rb
 
 " netrw
 nmap <leader><BS> :e<Space>%:h<tab><CR>
