@@ -90,7 +90,21 @@ cmap <Left>  <Nop>
 
 " No highlight search
 nnoremap <leader><F2> :nohlsearch<CR>
+
+" Fast examples
 nnoremap <leader><F3> :e<Space>~/Dropbox/docs/ruby_scripts/example.rb
+
+" simple ruby/rspec run
+nnoremap <leader>r :!ruby<Space>%<CR>
+nnoremap <leader>s :!rspec<Space>%<CR>
+
+"rebind my favorite commands from Git.vim for Fugitive
+nmap <leader>gs :Gstatus<cr>
+nmap <leader>gc :Gcommit<cr>
+nmap <leader>ga :Gwrite<cr>
+nmap <leader>gl :Glog<cr>
+nmap <leader>gd :Gdiff<cr>
+nmap <leader>gb :Gblame<cr>
 
 " netrw
 nmap <leader><BS> :e<Space>%:h<tab><CR>

@@ -1,10 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/home/mihail/rbpr/online_mipt/app/decorators'
-let g:netrw_dirhist_2='/home/mihail/rbpr/online_mipt'
-let g:netrw_dirhist_3='/home/mihail/rbpr/online_mipt/app'
-let g:netrw_dirhist_4='/home/mihail/rbpr/online_mipt/app/models'
-let g:netrw_dirhist_5='/home/mihail/rbpr/online_mipt'
-let g:netrw_dirhist_6='/home/mihail/rbpr/online_mipt/app'
-let g:netrw_dirhist_7='/home/mihail/rbpr/online_mipt/app/models'
-let g:netrw_dirhist_8='/home/mihail/dotfiles/vim'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/mihail/rbpr/stoege/app/mailers'
+let g:netrw_dirhist_2='/home/mihail/rbpr/stoege'
+let g:netrw_dirhist_3='/home/mihail/dotfiles/vim/bindings'
