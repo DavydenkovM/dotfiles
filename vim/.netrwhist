@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/mihail/rbpr/stoege/app/mailers'
-let g:netrw_dirhist_2='/home/mihail/rbpr/stoege'
-let g:netrw_dirhist_3='/home/mihail/dotfiles/vim/bindings'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/mihail/rbpr/stoege/spec'
+let g:netrw_dirhist_2='/home/mihail/rbpr/stoege/spec/tasks'
+let g:netrw_dirhist_3='/home/mihail/rbpr/stoege'
+let g:netrw_dirhist_4='/home/mihail/rbpr/stoege/config'
