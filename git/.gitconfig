@@ -1,10 +1,10 @@
 [user]
   email = davydenkov_m@mail.ru
-	name = Davydenkov Mihail
+  name = Davydenkov Mihail
 [color]
   ui = auto
 [alias]
-	d = difftool
+  d = difftool
   c- = checkout -
   ca = commit --amend
   ci = commit
@@ -19,11 +19,12 @@
   pager = less -x4
   editor = vim
   excludesfile = ~/dotfiles/git/.gitignore_global
+  autocrlf = true
 [init]
   templatedir = ~/dotfiles/git/git_template
 [diff]
-	tool = vimdiff
+  tool = vimdiff
 [difftool]
-	prompt = false
+  prompt = false
 [push]
   default = current
