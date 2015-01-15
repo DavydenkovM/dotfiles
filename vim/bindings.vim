@@ -97,6 +97,7 @@ nnoremap <leader><F3> :e<Space>~/Dropbox/docs/ruby_scripts/example.rb
 " simple ruby/rspec run
 nnoremap <leader>r :!ruby<Space>%<CR>
 nnoremap <leader>p :!rspec<Space>%<CR>
+nnoremap <leader>t :!test<Space>%<CR>
 
 "rebind my favorite commands from Git.vim for Fugitive
 nmap <leader>gs :Gstatus<cr>

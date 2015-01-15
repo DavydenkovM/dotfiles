@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/mihail/rbpr/auto/app'
-let g:netrw_dirhist_2='/home/mihail/rbpr/auto'
-let g:netrw_dirhist_3='/home/mihail/rbpr/auto/config'
+let g:netrw_dirhist_1='/home/mihail/rbpr/rails'
+let g:netrw_dirhist_2='/home/mihail/rbpr/rails/actionpack'
+let g:netrw_dirhist_3='/home/mihail/rbpr/rails'
