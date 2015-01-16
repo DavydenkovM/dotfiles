@@ -94,10 +94,13 @@ nnoremap <leader><F2> :nohlsearch<CR>
 " Fast examples
 nnoremap <leader><F3> :e<Space>~/Dropbox/docs/ruby_scripts/example.rb
 
+" Remove trailing whitespaces from file
+nnoremap <leader><F5> :%s/\s\+$//<CR>
+
 " simple ruby/rspec run
 nnoremap <leader>r :!ruby<Space>%<CR>
 nnoremap <leader>p :!rspec<Space>%<CR>
-nnoremap <leader>t :!test<Space>%<CR>
+nnoremap <leader>t :!ruby<Space>-Itest<Space>%<CR>
 
 "rebind my favorite commands from Git.vim for Fugitive
 nmap <leader>gs :Gstatus<cr>
