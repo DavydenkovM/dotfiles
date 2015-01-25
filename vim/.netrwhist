@@ -1,10 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/home/mihail/rbpr/auto/app'
-let g:netrw_dirhist_2='/home/mihail/rbpr/auto'
-let g:netrw_dirhist_3='/home/mihail/rbpr/auto/config'
-let g:netrw_dirhist_4='/home/mihail/rbpr/auto/config/deploy'
-let g:netrw_dirhist_5='/home/mihail'
-let g:netrw_dirhist_6='/home/mihail/dotfiles/vim/bundle'
-let g:netrw_dirhist_7='/home/mihail/dotfiles/vim'
-let g:netrw_dirhist_8='/home/mihail/dotfiles/vim/bundle'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/mihail/rbpr/easy_reports'
+let g:netrw_dirhist_2='/home/mihail/rbpr/easy_reports/lib'
+let g:netrw_dirhist_3='/home/mihail/rbpr/easy_reports/lib/easy_reports'
+let g:netrw_dirhist_4='/home/mihail/rbpr/easy_reports'
