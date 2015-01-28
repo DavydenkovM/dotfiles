@@ -18,10 +18,10 @@
 [core]
   pager = less -x4
   editor = vim
-	excludesfile = ~/dotfiles/git/.gitignore_global
-	autocrlf = input
+  excludesfile = ~/dotfiles/git/.gitignore_global
+  autocrlf = input
 [init]
-	templatedir = ~/dotfiles/git/git_template
+  templatedir = ~/dotfiles/git/git_template
 [diff]
   tool = vimdiff
 [difftool]
