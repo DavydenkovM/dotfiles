@@ -110,6 +110,13 @@ nmap <leader>gl :Glog -- %<cr>
 nmap <leader>gd :Gdiff<cr>
 nmap <leader>gb :Gblame<cr>
 
+" Quickfix bindings
+nmap <leader>cp :copen<cr>
+nmap <leader>cc :close<cr>
+nmap <leader>co :colder<cr>
+nmap <leader>cn :cnewer<cr>
+nmap <leader>co :copen<cr>
+
 " netrw
 nmap <leader><BS> :e<Space>%:h<tab><CR>
 nmap <leader><Space> :e.<CR>
@@ -126,4 +133,3 @@ nmap <leader>k :set spell!<CR>
 
 source ~/.vim/bindings/cntrlp.vim
 source ~/.vim/bindings/qargs.vim
-
