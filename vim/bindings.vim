@@ -110,7 +110,7 @@ nmap <leader>gl :Glog -- %<cr>
 nmap <leader>gd :Gdiff<cr>
 nmap <leader>gb :Gblame<cr>
 
-" Quickfix bindings
+" Quickfix bindings [don't forget about plugin bindings - ]q, [q, ]Q, [Q
 nmap <leader>cp :copen<cr>
 nmap <leader>cc :close<cr>
 nmap <leader>co :colder<cr>
