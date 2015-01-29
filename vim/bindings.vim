@@ -105,10 +105,16 @@ nnoremap <leader>t :!ruby<Space>-Itest<Space>%<CR>
 "rebind my favorite commands from Git.vim for Fugitive
 nmap <leader>gs :Gstatus<cr>
 nmap <leader>gc :Gcommit<cr>
-nmap <leader>ga :Gwrite<cr>
+nmap <leader>gw :Gwrite<cr>
 nmap <leader>gl :Glog -- %<cr>
-nmap <leader>gd :Gdiff<cr>
+nmap <leader>gd :Gdiff
 nmap <leader>gb :Gblame<cr>
+
+"bind diff tools
+nmap <leader>dp :diffput<cr>
+nmap <leader>dg :diffget<cr>
+nmap <leader>dw :Gwrite<cr>
+nmap <leader>dr :Gread<cr>
 
 " Quickfix bindings [don't forget about plugin bindings - ]q, [q, ]Q, [Q
 nmap <leader>cp :copen<cr>
