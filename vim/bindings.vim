@@ -110,9 +110,7 @@ nmap <leader>gl :Glog -- %<cr>
 nmap <leader>gd :Gdiff
 nmap <leader>gb :Gblame<cr>
 
-"bind diff tools
-nmap <leader>dp :diffput<cr>
-nmap <leader>dg :diffget<cr>
+"bind diff tools [dot't forget about do, dp]
 nmap <leader>dw :Gwrite<cr>
 nmap <leader>dr :Gread<cr>
 
