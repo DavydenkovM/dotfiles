@@ -106,7 +106,7 @@ nnoremap <leader>t :!ruby<Space>-Itest<Space>%<CR>
 nmap <leader>gs :Gstatus<cr>
 nmap <leader>gc :Gcommit<cr>
 nmap <leader>ga :Gwrite<cr>
-nmap <leader>gl :Glog<cr>
+nmap <leader>gl :Glog -- %<cr>
 nmap <leader>gd :Gdiff<cr>
 nmap <leader>gb :Gblame<cr>
 
