@@ -109,6 +109,7 @@ nmap <leader>gw :Gwrite<cr>
 nmap <leader>gl :Glog -- %<cr>
 nmap <leader>gd :Gdiff
 nmap <leader>gb :Gblame<cr>
+nmap <leader>gg :Gbrowse<cr>
 
 "bind diff tools [dot't forget about do, dp]
 nmap <leader>dw :Gwrite<cr>
