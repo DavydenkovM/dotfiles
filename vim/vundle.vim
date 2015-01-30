@@ -64,6 +64,8 @@ Bundle 'justincampbell/vim-eighties'
 
 " EDITING
 " -------
+" Quickfix navigation and useful pair of mappings
+Bundle 'tpope/vim-unimpaired'
 
 " Quoting/parenthesizing made simple
 Bundle 'tpope/vim-surround'
