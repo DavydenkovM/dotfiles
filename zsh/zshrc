@@ -1,0 +1,7 @@
+[[ -s ~/dotfiles/zsh/zprofile ]] && source ~/dotfiles/zsh/zprofile
+
+# Aliases
+[[ -s ~/dotfiles/zsh/alias.zsh ]] && source ~/dotfiles/zsh/alias.zsh
+
+# Shell prompt always in the bottom of the screen
+tput cup $LINES 0

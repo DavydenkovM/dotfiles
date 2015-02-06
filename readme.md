@@ -8,6 +8,14 @@
     ln -s ~/dotfiles/vim .vim
     ln -s ~dotfiles/vim/vimrc .vimrc
 
+## Zsh
+
+####
+
+    sudo apt-get install zsh
+    ln -s ~/dotfiles/zsh/zprofile .zlogin
+    ln -s ~/dotfiles/zsh/zshrc .zshrc
+
 ## Git
 
 #### Effortless ctags with git
