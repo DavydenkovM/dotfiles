@@ -8,7 +8,6 @@ let mapleader = " "
 " No need to switch between layouts to use normal mode https://gist.github.com/sigsergv/5329459
 set langmap=ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;`qwertyuiop[]asdfghjkl:'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL\\;\\"ZXCVBNM<>
 
-
 " Switch to normal
 inoremap kj <Esc>
 
@@ -98,9 +97,10 @@ nnoremap <leader><F3> :e<Space>~/Dropbox/docs/ruby_scripts/example.rb
 nnoremap <leader><F5> :%s/\s\+$//<CR>
 
 " simple ruby/rspec run
-nnoremap <leader>r :!ruby<Space>%<CR>
-nnoremap <leader>p :!rspec<Space>%<CR>
-nnoremap <leader>t :!ruby<Space>-Itest<Space>%<CR>
+nnoremap <leader>r :Dispatch ruby<Space>%<CR>
+nnoremap <leader>p :Dispatch rspec<Space>%<CR>
+nnoremap <leader>` :Dispatch bundle exec rails c<CR>
+nnoremap <leader>t :Dispatch ruby<Space>-Itest<Space>%<CR>
 
 "rebind my favorite commands from Git.vim for Fugitive
 nmap <leader>gs :Gstatus<cr>
