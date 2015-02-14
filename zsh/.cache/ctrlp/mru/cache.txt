@@ -1,3 +1,10 @@
+/home/mihail/.bashrc
+/home/mihail/.Xauthority
+/home/mihail/.xsession-errors
+/home/mihail/.bash_history
+/home/mihail/.bash_profile
+/home/mihail/.zshrc
+/home/mihail/.zprofile
 /home/mihail/dotfiles/vim/bindings.vim
 /home/mihail/rbpr/auto/app/models/user_course.rb
 /home/mihail/rbpr/auto/app/models/user.rb

@@ -5,3 +5,4 @@
 
 # Shell prompt always in the bottom of the screen
 tput cup $LINES 0
+

@@ -16,7 +16,7 @@ export PLATFORM=`uname -s`
 
 export EDITOR=vi
 [[ -s $(which vim) ]] && export EDITOR=vim
-[[ -s $(which nvim) ]] && export EDITOR=nvim
+# [[ -s $(which nvim) ]] && export EDITOR=nvim
 
 # Reduce delay after you hit the <ESC> to 0.2 seconds (hat tip Doug Black)
 export KEYTIMEOUT=20
@@ -32,7 +32,7 @@ setopt noclobber
 # Zsh, please...
 unsetopt correct_all
 
-. ~/dotfiles/zsh/antigen/antigen.zsh
+. ~/dotfiles/zsh/antigen.zsh
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle djui/alias-tips
