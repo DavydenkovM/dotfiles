@@ -136,7 +136,7 @@ Bundle 'tpope/vim-rails'
 Bundle 'slim-template/vim-slim'
 Bundle 'gaogao1030/vim-skim'
 Bundle 'kchmck/vim-coffee-script'
-
+Bundle 'thoughtbot/vim-rspec'
 
 Bundle 'sunaku/vim-ruby-minitest'
 " Bundle 'tpope/vim-haml'

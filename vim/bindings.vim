@@ -39,9 +39,6 @@ nnoremap <leader>x :bn<CR>
 " Yank to the end of line
 nnoremap Y y$
 
-" Only use X clipboard when required
-nnoremap <Leader>p :set paste<CR>:read !xclip -o<CR>:set nopaste<CR>
-
 " Jump to start and end of line using the home row keys
 noremap H 0
 noremap L $
@@ -93,6 +90,9 @@ nnoremap <leader><F2> :nohlsearch<CR>
 " Fast examples
 nnoremap <leader><F3> :e<Space>~/Dropbox/docs/ruby_scripts/example.rb
 
+" Only use X clipboard when required
+nnoremap <Leader><F4> :set paste<CR>:read !xclip -o<CR>:set nopaste<CR>
+
 " Remove trailing whitespaces from file
 nnoremap <leader><F5> :%s/\s\+$//<CR>
 
@@ -101,6 +101,14 @@ nnoremap <leader>r :Dispatch ruby<Space>%<CR>
 nnoremap <leader>p :Dispatch rspec<Space>%<CR>
 nnoremap <leader>` :Dispatch bundle exec rails c<CR>
 nnoremap <leader>t :Dispatch ruby<Space>-Itest<Space>%<CR>
+
+" let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
+
+" " vim-rspec mappings
+" map ,t :call RunCurrentSpecFile()<CR>
+" map ,s :call RunNearestSpec()<CR>
+" map ,l :call RunLastSpec()<CR>
+" map ,a :call RunAllSpecs()<CR>
 
 "rebind my favorite commands from Git.vim for Fugitive
 nmap <leader>gs :Gstatus<cr>
