@@ -96,19 +96,19 @@ nnoremap <Leader><F4> :set paste<CR>:read !xclip -o<CR>:set nopaste<CR>
 " Remove trailing whitespaces from file
 nnoremap <leader><F5> :%s/\s\+$//<CR>
 
-" simple ruby/rspec run
+let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
+
+" vim-rspec mappings
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
+" simple ruby/rspec run using Dispatch
 nnoremap <leader>r :Dispatch ruby<Space>%<CR>
 nnoremap <leader>p :Dispatch rspec<Space>%<CR>
 nnoremap <leader>` :Dispatch bundle exec rails c<CR>
 nnoremap <leader>t :Dispatch ruby<Space>-Itest<Space>%<CR>
-
-" let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
-
-" " vim-rspec mappings
-" map ,t :call RunCurrentSpecFile()<CR>
-" map ,s :call RunNearestSpec()<CR>
-" map ,l :call RunLastSpec()<CR>
-" map ,a :call RunAllSpecs()<CR>
 
 "rebind my favorite commands from Git.vim for Fugitive
 nmap <leader>gs :Gstatus<cr>
