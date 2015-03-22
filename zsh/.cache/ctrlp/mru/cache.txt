@@ -1,3 +1,14 @@
+/home/mihail/dotfiles/.git/config
+/home/mihail/dotfiles/.gitignore
+/home/mihail/rbpr/auto/.gitignore
+/home/mihail/jspr/learnyounode_workshopper/modular_async_filtered_ls/program.js
+/home/mihail/jspr/learnyounode_workshopper/modular_async_filtered_ls/fileListFilter.js
+/home/mihail/rbpr/auto/spec/models/passing_type_spec.rb
+/home/mihail/rbpr/auto/spec/models/document_spec.rb
+/home/mihail/rbpr/auto/app/models/card.rb
+/home/mihail/rbpr/auto/config.ru
+/home/mihail/dotfiles/.tmux.conf
+/home/mihail/jspr/learnyounode_workshopper/async_filtered_ls/program.js
 /home/mihail/dotfiles/vim/bindings.vim
 /home/mihail/rbpr/auto/spec/models/course_spec.rb
 /home/mihail/rbpr/auto/spec/models/card_spec.rb
@@ -5,7 +16,6 @@
 /home/mihail/rbpr/auto/spec/models/answer_spec.rb
 /home/mihail/rbpr/auto/spec/models/discipline_spec.rb
 /home/mihail/rbpr/auto/spec/models/comment_spec.rb
-/home/mihail/dotfiles/.tmux.conf
 /home/mihail/rbpr/auto/spec/models/discipline_plan_spec.rb
 /home/mihail/rbpr/stoege/spec/models/course_spec.rb
 /home/mihail/rbpr/stoege/spec/models/campaign_spec.rb
@@ -14,9 +24,6 @@
 /tmp/vPjxqAZ/29
 /home/mihail/dotfiles/vim/vundle.vim
 /home/mihail/dotfiles/vim/vimrc
-/home/mihail/jspr/learnyounode_workshopper/modular_async_filtered_ls/fileListFilter.js
-/home/mihail/jspr/learnyounode_workshopper/modular_async_filtered_ls/program.js
-/home/mihail/jspr/learnyounode_workshopper/async_filtered_ls/program.js
 /home/mihail/node_projects/program.js
 /usr/lib/node_modules/learnyounode/exercises/baby_steps/solution/solution.js
 /usr/lib/node_modules/learnyounode/package.json
@@ -241,10 +248,3 @@
 /home/mihail/rbpr/auto/app/controllers/api/programs/passing_types_controller.rb
 /home/mihail/rbpr/auto/app/controllers/api/parallels_controller.rb
 /home/mihail/rbpr/auto/app/controllers/api/theory_modules_controller.rb
-/home/mihail/rbpr/auto/app/controllers/api/programs/theory_modules_controller.rb
-/home/mihail/rbpr/auto/app/models/program.rb
-/home/mihail/rbpr/auto/app/models/card_task.rb
-/home/mihail/rbpr/auto/app/assets/javascripts/admin/user_programs.js.coffee
-/home/mihail/rbpr/auto/app/assets/javascripts/backbone/views/courses_view.js.coffee
-/home/mihail/rbpr/auto/app/views/courses/_index_content.html.slim
-/home/mihail/rbpr/auto/app/views/shared/_custom_category_select.html.slim
