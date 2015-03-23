@@ -1,5 +1,0 @@
-
-vimrc
-input  
-user_program
-UserProgram
