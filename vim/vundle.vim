@@ -140,7 +140,8 @@ Bundle 'thoughtbot/vim-rspec'
 
 Bundle 'sunaku/vim-ruby-minitest'
 " Bundle 'tpope/vim-haml'
-" Bundle 'tpope/vim-rake'
+Bundle 'tpope/vim-rake'
+Bundle 'tpope/vim-bundler'
 
 " CSS color previews
 Bundle 'ap/vim-css-color'

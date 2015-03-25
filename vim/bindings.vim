@@ -98,6 +98,7 @@ nnoremap <leader><F5> :%s/\s\+$//<CR>
 
 let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
 
+" Ruby bindings
 " vim-rspec mappings
 map <Leader>,t :call RunCurrentSpecFile()<CR>
 map <Leader>,s :call RunNearestSpec()<CR>
@@ -110,6 +111,11 @@ nnoremap <leader>p :Dispatch rspec<Space>%<CR>
 nnoremap <leader>` :Dispatch bundle exec rails c<CR>
 nnoremap <leader>t :Dispatch ruby<Space>-Itest<Space>%<CR>
 
+" Gemfile shortcut # dot't forget to install gems gem-ctags and gem-browse
+nmap <leader>gfo :Bopen<CR>
+nmap <leader>gfs :Bsplit<CR>
+
+" Git
 "rebind my favorite commands from Git.vim for Fugitive
 nmap <leader>gs :Gstatus<cr>
 nmap <leader>gc :Gcommit<cr>
