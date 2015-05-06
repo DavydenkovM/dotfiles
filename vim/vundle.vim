@@ -67,6 +67,9 @@ Bundle 'justincampbell/vim-eighties'
 " Quickfix navigation and useful pair of mappings
 Bundle 'tpope/vim-unimpaired'
 
+" Simple auto closer
+Bundle 'jiangmiao/auto-pairs'
+
 " Quoting/parenthesizing made simple
 Bundle 'tpope/vim-surround'
 
