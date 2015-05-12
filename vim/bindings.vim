@@ -116,8 +116,8 @@ nmap <leader>gfo :Bopen<CR>
 nmap <leader>gfs :Bsplit<CR>
 
 " Bingings for RubuCop
-nmap <leader>Rcc :RuboCop
-nmap <leader>Rcl :RuboCop -l
+nmap <leader>Rcc :RuboCop<CR>
+nmap <leader>Rcl :RuboCop -l<CR>
 
 " Git
 "rebind my favorite commands from Git.vim for Fugitive
