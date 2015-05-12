@@ -115,6 +115,10 @@ nnoremap <leader>t :Dispatch ruby<Space>-Itest<Space>%<CR>
 nmap <leader>gfo :Bopen<CR>
 nmap <leader>gfs :Bsplit<CR>
 
+" Bingings for RubuCop
+nmap <leader>Rcc :RuboCop
+nmap <leader>Rcl :RuboCop -l
+
 " Git
 "rebind my favorite commands from Git.vim for Fugitive
 nmap <leader>gs :Gstatus<cr>

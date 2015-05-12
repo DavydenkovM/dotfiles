@@ -163,6 +163,9 @@ Bundle 'Shutnik/jshint2.vim'
 " RUBY
 " ----
 
+" RuboCop - code-style checking
+Bundle 'ngmy/vim-rubocop'
+
 " Documentation browser
 " Bundle 'danchoi/ri.vim'
 
