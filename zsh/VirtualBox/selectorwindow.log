@@ -1,0 +1,14 @@
+VirtualBox GUI VM Selector Window 4.3.28 r100309 linux.amd64 (May 13 2015 17:32:38) release log
+00:00:00.246325 Log opened 2015-05-14T09:57:55.532251000Z
+00:00:00.246326 Build Type: release
+00:00:00.246327 OS Product: Linux
+00:00:00.246328 OS Release: 3.13.0-44-generic
+00:00:00.246329 OS Version: #73-Ubuntu SMP Tue Dec 16 00:22:43 UTC 2014
+00:00:00.246342 DMI Product Name: All Series
+00:00:00.246347 DMI Product Version: System Version
+00:00:00.246401 Host RAM: 15485MB total, 9497MB available
+00:00:00.246402 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.246403 Process ID: 31375
+00:00:00.246403 Package type: LINUX_64BITS_UBUNTU_13_04
+00:00:00.247521 UIMediumEnumerator: Medium-enumeration started...
+00:00:00.376765 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE

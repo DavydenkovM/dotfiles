@@ -1,0 +1,24 @@
+VirtualBox XPCOM Server 4.3.28 r100309 linux.amd64 (May 13 2015 17:32:38) release log
+00:00:00.000103 main     Log opened 2015-05-14T09:57:55.387210000Z
+00:00:00.000104 main     Build Type: release
+00:00:00.000106 main     OS Product: Linux
+00:00:00.000107 main     OS Release: 3.13.0-44-generic
+00:00:00.000107 main     OS Version: #73-Ubuntu SMP Tue Dec 16 00:22:43 UTC 2014
+00:00:00.000121 main     DMI Product Name: All Series
+00:00:00.000125 main     DMI Product Version: System Version
+00:00:00.000173 main     Host RAM: 15485MB total, 9499MB available
+00:00:00.000176 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000176 main     Process ID: 31396
+00:00:00.000177 main     Package type: LINUX_64BITS_UBUNTU_13_04
+00:00:00.102801 nspr-2   Home directory: '/home/mihail/dotfiles/zsh/VirtualBox'
+00:00:00.105677 nspr-2   HostDnsMonitor: old information
+00:00:00.105686 nspr-2     no server entries
+00:00:00.105690 nspr-2     no search string entries
+00:00:00.105692 nspr-2     no domain set
+00:00:00.105693 nspr-2   HostDnsMonitor: new information
+00:00:00.105695 nspr-2     server 1: 127.0.1.1
+00:00:00.105698 nspr-2     no search string entries
+00:00:00.105700 nspr-2     no domain set
+00:00:00.105704 nspr-2   HostDnsMonitorProxy::notify
+00:00:00.105885 nspr-2   VDInit finished
+00:00:08.546068 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={fafa4e17-1ee2-4905-a10e-fe7c18bf5554} aComponent={VirtualBox} aText={The object is not ready}, preserve=false
