@@ -53,8 +53,11 @@ Bundle 'vim-misc'
 Bundle 'justincampbell/vim-eighties'
 " Bundle 'zhaocai/GoldenView.Vim'
 
-"Buffers
+" Buffers
 Bundle 'jeetsukumaran/vim-buffergator'
+
+" Taglist
+Bundle 'vim-scripts/taglist.vim'
 
 " Startup screen
 "mhinz/vim-startify
