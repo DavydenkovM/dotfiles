@@ -49,6 +49,9 @@ Bundle 'nanotech/jellybeans.vim'
 " Bundle 'xolox/vim-colorscheme-switcher'
 Bundle 'vim-misc'
 
+" Visual features
+" Bundle "xsunsmile/showmarks.git"
+
 " Automatically resizes splits on switch
 Bundle 'justincampbell/vim-eighties'
 " Bundle 'zhaocai/GoldenView.Vim'
@@ -132,8 +135,6 @@ Bundle 'tpope/vim-fugitive'
 
 " SYNTAX SUPPORT
 " --------------
-
-"scrooloose/syntastic
 
 " This one is a collection of 50 autoloaded syntax files, may replace
 " everything below

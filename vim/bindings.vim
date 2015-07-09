@@ -156,3 +156,4 @@ nmap <leader>k :set spell!<CR>
 
 source ~/.vim/bindings/cntrlp.vim
 source ~/.vim/bindings/qargs.vim
+source ~/.vim/bindings/functions.vim
