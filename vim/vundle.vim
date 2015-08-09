@@ -30,6 +30,7 @@ Bundle 'kien/ctrlp.vim'
 
 " Allows you to visually select increasingly larger regions of text using the same key combination
 Bundle 'terryma/vim-expand-region'
+Bundle 'jimenezrick/vimerl'
 
 " COLLABORATION
 " -------------
