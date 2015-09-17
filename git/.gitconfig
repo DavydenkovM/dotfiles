@@ -9,6 +9,7 @@
   ca = commit --amend
   ci = commit
   co = checkout
+  d = difftool
   lo = log --graph --oneline
   p = push
   sp = stash pop
@@ -23,9 +24,11 @@
 [init]
   templatedir = ~/dotfiles/git/git_template
 [diff]
-  tool = vimdiff
+  tool = icdiff
 [difftool]
   prompt = false
+[difftool "icdiff"]
+  cmd = icdiff --highlight --line-numbers --numlines=3 $LOCAL $REMOTE 
 [push]
   default = current
 [merge]
