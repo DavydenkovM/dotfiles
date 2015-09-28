@@ -141,13 +141,14 @@ Bundle 'tpope/vim-fugitive'
 " everything below
 "sheerun/vim-polyglot
 
-" Ruby
+" Langs
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 Bundle 'slim-template/vim-slim'
 Bundle 'gaogao1030/vim-skim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'thoughtbot/vim-rspec'
+Bundle 'elixir-lang/vim-elixir'
 
 Bundle 'sunaku/vim-ruby-minitest'
 " Bundle 'tpope/vim-haml'
