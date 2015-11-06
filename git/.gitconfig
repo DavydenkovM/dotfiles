@@ -10,7 +10,7 @@
   ci = commit
   co = checkout
   d = difftool
-  lo = log --graph --oneline
+  lo = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   p = push
   sp = stash pop
   ss = stash save
