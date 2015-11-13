@@ -117,5 +117,8 @@ set splitright
 " Spell checking
 set spelllang=en,ru
 
+set foldmethod=indent
+set foldlevel=6
+
 " Hard time, disallow several hjkl in a row
 " let g:hardtime_default_on = 1

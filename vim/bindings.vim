@@ -106,7 +106,7 @@ map <Leader>,l :call RunLastSpec()<CR>
 map <Leader>,a :call RunAllSpecs()<CR>
 
 " simple ruby/rspec run using Dispatch
-nnoremap <leader>r :Dispatch ruby<Space>%<CR>
+" nnoremap <leader>r :Dispatch ruby<Space>%<CR>
 nnoremap <leader>p :Dispatch rspec<Space>%<CR>
 nnoremap <leader>` :Dispatch bundle exec rails c<CR>
 nnoremap <leader>t :Dispatch ruby<Space>-Itest<Space>%<CR>
@@ -153,6 +153,12 @@ nnoremap <leader>a :Ag<Space>
 
 " Toggle spell check
 nmap <leader>k :set spell!<CR>
+
+" Folding (experiment)
+nnoremap <leader>m zm
+nnoremap <leader>M zM
+nnoremap <leader>r zr
+nnoremap <leader>R zR
 
 source ~/.vim/bindings/cntrlp.vim
 source ~/.vim/bindings/qargs.vim
