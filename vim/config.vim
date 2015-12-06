@@ -132,3 +132,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_error_symbol = "✗"
 let g:syntastic_warning_symbol = "⚠"
 let g:syntastic_ruby_checkers = ['rubocop', 'mri']
+let g:syntastic_elixir_checkers = ['elixir']
+let g:syntastic_erlang_checkers = ['erlang']
+let g:syntastic_enable_elixir_checker = 1
+let g:syntastic_enable_erlang_checker = 1

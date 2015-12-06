@@ -151,6 +151,11 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'elixir-lang/vim-elixir'
 
+Bundle 'vim-erlang/vim-erlang-omnicomplete'
+Bundle 'vim-erlang/vim-erlang-compiler'
+Bundle 'vim-erlang/vim-erlang-runtime'
+Bundle 'vim-erlang/vim-erlang-tags'
+
 Bundle 'sunaku/vim-ruby-minitest'
 " Bundle 'tpope/vim-haml'
 Bundle 'tpope/vim-rake'
