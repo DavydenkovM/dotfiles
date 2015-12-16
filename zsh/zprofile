@@ -93,3 +93,4 @@ export PATH=$PATH:$HOME/opt/icdiff
 # Keyboard sppedup
 xset r rate 200 60
 
+export BROWSER=/usr/bin/google-chrome-stable
