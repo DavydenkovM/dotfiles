@@ -158,3 +158,4 @@ bar {
 bindsym Mod4+l exec i3lock
 bindsym Mod4+x exec i3-exit
 
+bindsym Mod4+space setxkbpam us
