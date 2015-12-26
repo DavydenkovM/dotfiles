@@ -1,4 +1,5 @@
 exec nm-applet &
+dropbox start &
 synclient TapButton1=1
 synclient TapButton2=1
 synclient TapButton3=1
