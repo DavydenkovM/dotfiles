@@ -73,7 +73,7 @@ bindsym $mod+h split h
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+bindsym $mod+f fullscreen
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -158,4 +158,3 @@ bar {
 bindsym Mod4+l exec i3lock
 bindsym Mod4+x exec i3-exit
 
-bindsym Mod4+space setxkbpam us
