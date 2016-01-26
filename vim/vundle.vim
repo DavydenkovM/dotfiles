@@ -41,14 +41,16 @@ Bundle 'jimenezrick/vimerl'
 " ------------
 
 " Neat replacement for powerline
-" Bundle 'bling/vim-airline'
-Bundle 'itchyny/lightline.vim'
+Bundle 'bling/vim-airline'
+" Bundle 'itchyny/lightline.vim'
 
 " Colorschemes
 Bundle 'nanotech/jellybeans.vim'
+" Bundle 'dandorman/vim-colors'
 " Bundle 'flazz/vim-colorschemes'
 " Bundle 'xolox/vim-colorscheme-switcher'
 Bundle 'vim-misc'
+
 
 " Visual features
 " Bundle "xsunsmile/showmarks.git"
