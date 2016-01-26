@@ -104,7 +104,7 @@ set foldlevel=6
 
 "vim-airline"
 set laststatus=2               " enable airline even if no splits
-let g:airline_theme='luna'
+let g:airline_theme='jellybeans'
 let g:airline_powerline_fonts=1
 " let g:airline_left_sep = ''
 " let g:airline_right_sep = ''
