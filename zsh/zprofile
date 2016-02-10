@@ -86,9 +86,13 @@ add-zsh-hook precmd prompt
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 export PATH=$PATH:$HOME/otp/bin
 export PATH=$PATH:$HOME/opt/icdiff
+export PATH=$PATH:$HOME/.kerl/18.2.1/bin
+export PATH=$PATH:$HOME/.kiex/bin
 
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+source "$HOME/.kiex/elixirs/elixir-1.2.2.env"
 
 # Keyboard sppedup
 xset r rate 200 60

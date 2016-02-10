@@ -69,20 +69,20 @@ imap <tab> <c-p>
 " Temporarily disable hard mode. Sign of weakness!
 " nnoremap <leader>h <Esc>:call ToggleHardMode()<cr>
 
-" Soft hardmode
-nmap <Left>  <NOP>
-nmap <Down>  <NOP>
-nmap <Up>    <NOP>
-nmap <Right> <NOP>
-imap <Left>  <NOP>
-imap <Down>  <NOP>
-imap <Up>    <NOP>
-imap <Right> <NOP>
-" Use ^N/^P/^F
-cmap <Up>    <Nop>
-cmap <Down>  <Nop>
-cmap <Right> <Nop>
-cmap <Left>  <Nop>
+" Soft hardmode (disable, for guests)
+" nmap <Left>  <NOP>
+" nmap <Down>  <NOP>
+" nmap <Up>    <NOP>
+" nmap <Right> <NOP>
+" imap <Left>  <NOP>
+" imap <Down>  <NOP>
+" imap <Up>    <NOP>
+" imap <Right> <NOP>
+" " Use ^N/^P/^F
+" cmap <Up>    <Nop>
+" cmap <Down>  <Nop>
+" cmap <Right> <Nop>
+" cmap <Left>  <Nop>
 
 " No highlight search
 nnoremap <leader><F2> :nohlsearch<CR>
