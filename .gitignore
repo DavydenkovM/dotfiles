@@ -10,3 +10,4 @@ zsh/ibus*
 zsh/KDE*
 zsh/Atlassian*
 zsh/ranger*
+*.log
