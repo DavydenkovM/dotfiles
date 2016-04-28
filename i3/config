@@ -157,4 +157,4 @@ bar {
 
 bindsym Mod4+l exec i3lock
 bindsym Mod4+x exec i3-exit
-
+bindsym --release $mod+z exec scrot -s -u '%Y%m%d_%H%M%S.png' -e 'mv $f ~/Documents/'
