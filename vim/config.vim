@@ -41,8 +41,8 @@ set listchars=tab:>-        " Indicate tabs
 set listchars+=trail:-      " Indicate trailing whitespace as dots
 set listchars+=extends:>    " Indicate that text continues beyond the right of the screen
 set listchars+=precedes:<   " Indicate that text continues beyond the left of the screen
-set listchars+=space:␣      " Indicate ordinary space symbols
-set listchars+=eol:¬        " Indicate eol
+" set listchars+=space:␣      " Indicate ordinary space symbols
+" set listchars+=eol:¬        " Indicate eol
 
 set encoding=utf-8
 set noshowmode     " Don't show the mode since lightline shows it
