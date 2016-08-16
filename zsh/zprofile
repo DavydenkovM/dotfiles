@@ -92,7 +92,9 @@ export PATH=$PATH:$HOME/opt/icdiff
 
 export PATH=$PATH:$HOME/.kerl/19.0/bin
 export PATH=$PATH:$HOME/.kiex/bin
+export PATH="$HOME/.jenv/bin:$PATH"
 source "$HOME/.kiex/elixirs/elixir-1.3.2.env"
+eval "$(jenv init -)"
 
 # Keyboard sppedup
 xset r rate 200 60
