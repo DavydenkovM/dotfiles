@@ -65,6 +65,7 @@ nmap <leader>e :e<Space>
 
 " Autocomplete on Tab
 imap <tab> <c-p>
+inoremap <S-Tab> <C-V><Tab>
 
 " Temporarily disable hard mode. Sign of weakness!
 " nnoremap <leader>h <Esc>:call ToggleHardMode()<cr>
@@ -95,6 +96,19 @@ nnoremap <Leader><F4> :set paste<CR>:read !xclip -o<CR>:set nopaste<CR>
 
 " Remove trailing whitespaces from file
 nnoremap <leader><F5> :%s/\s\+$//<CR>
+
+
+nnoremap <leader><F6> :call RetabToggle()<CR>
+let g:file_retab = 0
+function! RetabToggle()
+    if g:file_retab
+        set et|retab
+        let g:file_retab = 0
+    else
+        set noet|retab!
+        let g:file_retab = 1
+    endif
+endfunction
 
 let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
 
