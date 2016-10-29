@@ -94,7 +94,7 @@ export PATH=$PATH:$HOME/.kerl/19.0/bin
 export PATH=$PATH:$HOME/.kiex/bin
 export PATH="$HOME/.jenv/bin:$PATH"
 export PATH=$PATH:$HOME/opt/scala-2.11.8/bin
-source "$HOME/.kiex/elixirs/elixir-1.3.2.env"
+source "$HOME/.kiex/elixirs/elixir-1.3.4.env"
 eval "$(jenv init -)"
 
 # Keyboard sppedup
