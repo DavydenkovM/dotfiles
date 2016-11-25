@@ -64,7 +64,7 @@ nmap <leader>w :w<CR>
 nmap <leader>e :e<Space>
 
 " Autocomplete on Tab
-imap <tab> <c-p>
+imap <Tab> <c-p>
 inoremap <S-Tab> <C-V><Tab>
 
 " Temporarily disable hard mode. Sign of weakness!

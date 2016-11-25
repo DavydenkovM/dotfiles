@@ -153,6 +153,7 @@ Bundle 'thoughtbot/vim-rspec'
 Bundle 'elixir-lang/vim-elixir'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'sunaku/vim-ruby-minitest'
+Bundle 'neovimhaskell/haskell-vim'
 
 " Bundle 'vim-erlang/vim-erlang-omnicomplete'
 " Bundle 'vim-erlang/vim-erlang-compiler'
