@@ -1,9 +1,9 @@
 # Platform specific values
-# if [ $PLATFORM = 'Linux' ]; then
+if [ $PLATFORM = 'Linux' ]; then
   LS_COLOR='--color'
-# else
-  # LS_COLOR='-G'
-# fi
+else
+  LS_COLOR='-G'
+fi
 
 # ls aliases
 alias ls='ls $LS_COLOR'

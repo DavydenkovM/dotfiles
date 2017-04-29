@@ -2,68 +2,69 @@
 " Vundle
 " ----------------------------------------
 
+set nocompatible
 filetype off     " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/vundle/
+call vundle#begin()
 
 " let Vundle manage Vundle, required
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 " Shougo/neobundle.vim
 
 " NAVIGATION
 " ----------
 
-"Bundle 'ZoomWin'
+"Plugin 'ZoomWin'
 " This fork is required due to remapping ; to :
-"Bundle 'christoomey/vim-space'
-"Bundle 'supasorn/vim-easymotion'
+"Plugin 'christoomey/vim-space'
+"Plugin 'supasorn/vim-easymotion'
 " christoomey/vim-tmux-navigator
 
 " Fuzzy search
-Bundle 'kien/ctrlp.vim'
-" Bundle 'Shougo/unite.vim'
+Plugin 'kien/ctrlp.vim'
+" Plugin 'Shougo/unite.vim'
 
 " No char-wise navigation, please
-" Bundle 'wikitopian/hardmode'
-" Bundle 'takac/vim-hardtime'
+" Plugin 'wikitopian/hardmode'
+" Plugin 'takac/vim-hardtime'
 
 " Allows you to visually select increasingly larger regions of text using the same key combination
-Bundle 'terryma/vim-expand-region'
-Bundle 'jimenezrick/vimerl'
+Plugin 'terryma/vim-expand-region'
+Plugin 'jimenezrick/vimerl'
 
 " COLLABORATION
 " -------------
 
-" Bundle 'emgram769/vim-multiuser'
+" Plugin 'emgram769/vim-multiuser'
 
 " UI ADDITIONS
 " ------------
 
 " Neat replacement for powerline
-Bundle 'bling/vim-airline'
-" Bundle 'itchyny/lightline.vim'
+Plugin 'bling/vim-airline'
+" Plugin 'itchyny/lightline.vim'
 
 " Colorschemes
-Bundle 'nanotech/jellybeans.vim'
-" Bundle 'dandorman/vim-colors'
-" Bundle 'flazz/vim-colorschemes'
-" Bundle 'xolox/vim-colorscheme-switcher'
-Bundle 'vim-misc'
+Plugin 'nanotech/jellybeans.vim'
+" Plugin 'dandorman/vim-colors'
+" Plugin 'flazz/vim-colorschemes'
+" Plugin 'xolox/vim-colorscheme-switcher'
+Plugin 'vim-misc'
 
 
 " Visual features
-" Bundle "xsunsmile/showmarks.git"
+" Plugin "xsunsmile/showmarks.git"
 
 " Automatically resizes splits on switch
-Bundle 'justincampbell/vim-eighties'
-" Bundle 'zhaocai/GoldenView.Vim'
+Plugin 'justincampbell/vim-eighties'
+" Plugin 'zhaocai/GoldenView.Vim'
 
 " Buffers
-Bundle 'jeetsukumaran/vim-buffergator'
+Plugin 'jeetsukumaran/vim-buffergator'
 
 " Taglist
-Bundle 'vim-scripts/taglist.vim'
+Plugin 'vim-scripts/taglist.vim'
 
 " Startup screen
 "mhinz/vim-startify
@@ -71,71 +72,71 @@ Bundle 'vim-scripts/taglist.vim'
 " Undo tree
 "mbbill/undotree
 
-"Bundle 'Rykka/colorv.vim'
-"Bundle 'mutewinter/vim-indent-guides'
+"Plugin 'Rykka/colorv.vim'
+"Plugin 'mutewinter/vim-indent-guides'
 
 " EDITING
 " -------
 " Quickfix navigation and useful pair of mappings
-Bundle 'tpope/vim-unimpaired'
+Plugin 'tpope/vim-unimpaired'
 
 " Simple auto closer
-Bundle 'jiangmiao/auto-pairs'
+Plugin 'jiangmiao/auto-pairs'
 
 " Quoting/parenthesizing made simple
-Bundle 'tpope/vim-surround'
+Plugin 'tpope/vim-surround'
 
 " Wisely add 'end' in ruby, endfunction/endif/more in vim script, etc
-Bundle 'tpope/vim-endwise'
+Plugin 'tpope/vim-endwise'
 
 " Use vim with tmux effectively
-Bundle 'tpope/vim-dispatch'
+Plugin 'tpope/vim-dispatch'
 
 " Indentation text-objects to give your old Vim some new bytes
-Bundle 'qstrahl/vim-dentures'
+Plugin 'qstrahl/vim-dentures'
 
 " COMMANDS
 " --------
 
-"Bundle 'godlygeek/tabular'
+"Plugin 'godlygeek/tabular'
 
-Bundle 'rking/ag.vim'
+Plugin 'rking/ag.vim'
 
-"Bundle 'milkypostman/vim-togglelist'
-"Bundle 'AndrewRadev/sideways.vim'
-"Bundle 'keepcase.vim'
-"Bundle 'scratch.vim'
-"Bundle 'mutewinter/GIFL'
-Bundle 'suan/vim-instant-markdown'
-"Bundle 'swaroopch/vim-markdown-preview'
-"Bundle 'AndrewRadev/switch.vim'
-"Bundle 'tpope/vim-eunuch'
-"Bundle 'itspriddle/vim-marked'
-"Bundle 'mutewinter/UnconditionalPaste'
-"Bundle 'skalnik/vim-vroom'
+"Plugin 'milkypostman/vim-togglelist'
+"Plugin 'AndrewRadev/sideways.vim'
+"Plugin 'keepcase.vim'
+"Plugin 'scratch.vim'
+"Plugin 'mutewinter/GIFL'
+Plugin 'suan/vim-instant-markdown'
+"Plugin 'swaroopch/vim-markdown-preview'
+"Plugin 'AndrewRadev/switch.vim'
+"Plugin 'tpope/vim-eunuch'
+"Plugin 'itspriddle/vim-marked'
+"Plugin 'mutewinter/UnconditionalPaste'
+"Plugin 'skalnik/vim-vroom'
 " sickill/vim-pasta
 "tpope/vim-abolish
 
 " Comment and uncomment
-Bundle "tpope/vim-commentary"
+Plugin 'tpope/vim-commentary'
 
 " AUTOMATIC HELPERS
 " -----------------
 
-"Bundle 'IndexedSearch'
-"Bundle 'xolox/vim-session'
-"Bundle 'Raimondi/delimitMate'
-Bundle 'scrooloose/syntastic'
-"Bundle 'ervandew/supertab'
-"Bundle 'gregsexton/MatchTag'
+"Plugin 'IndexedSearch'
+"Plugin 'xolox/vim-session'
+"Plugin 'Raimondi/delimitMate'
+Plugin 'scrooloose/syntastic'
+"Plugin 'ervandew/supertab'
+"Plugin 'gregsexton/MatchTag'
 
-"Bundle 'Shougo/neocomplete.vim'
+"Plugin 'Shougo/neocomplete.vim'
 "valloric/YouCompleteMe
 
 " VERSION CONTROL
 " ---------------
-Bundle 'tpope/vim-fugitive'
-" Bundle 'mhinz/vim-signify'
+Plugin 'tpope/vim-fugitive'
+" Plugin 'mhinz/vim-signify'
 
 " SYNTAX SUPPORT
 " --------------
@@ -145,49 +146,49 @@ Bundle 'tpope/vim-fugitive'
 "sheerun/vim-polyglot
 
 " Langs
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'tpope/vim-rails'
-Bundle 'slim-template/vim-slim'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'thoughtbot/vim-rspec'
-Bundle 'elixir-lang/vim-elixir'
-Bundle 'derekwyatt/vim-scala'
-Bundle 'sunaku/vim-ruby-minitest'
-Bundle 'neovimhaskell/haskell-vim'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+Plugin 'slim-template/vim-slim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'thoughtbot/vim-rspec'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'sunaku/vim-ruby-minitest'
+Plugin 'neovimhaskell/haskell-vim'
 
-" Bundle 'vim-erlang/vim-erlang-omnicomplete'
-" Bundle 'vim-erlang/vim-erlang-compiler'
-" Bundle 'vim-erlang/vim-erlang-runtime'
-" Bundle 'vim-erlang/vim-erlang-tags'
+" Plugin 'vim-erlang/vim-erlang-omnicomplete'
+" Plugin 'vim-erlang/vim-erlang-compiler'
+" Plugin 'vim-erlang/vim-erlang-runtime'
+" Plugin 'vim-erlang/vim-erlang-tags'
 
-" Bundle 'tpope/vim-haml'
+" Plugin 'tpope/vim-haml'
 
-Bundle 'slashmili/alchemist.vim'
-Bundle 'tpope/vim-rake'
-Bundle 'tpope/vim-bundler'
+Plugin 'slashmili/alchemist.vim'
+Plugin 'tpope/vim-rake'
+Plugin 'tpope/vim-bundler'
 
 " CSS color previews
-Bundle 'ap/vim-css-color'
+Plugin 'ap/vim-css-color'
 
 " Other
-" Bundle 'perl-support.vim'
-" Bundle 'pangloss/vim-javascript'
-Bundle 'brandonbloom/vim-factor'
+" Plugin 'perl-support.vim'
+" Plugin 'pangloss/vim-javascript'
+Plugin 'brandonbloom/vim-factor'
 
 " LiveScript
-Bundle 'ninegrid/vim-livescript'
+Plugin 'ninegrid/vim-livescript'
 
 " JavaScript
-Bundle 'Shutnik/jshint2.vim'
+Plugin 'Shutnik/jshint2.vim'
 
 " RUBY
 " ----
 
 " RuboCop - code-style checking
-Bundle 'ngmy/vim-rubocop'
+Plugin 'ngmy/vim-rubocop'
 
 " Documentation browser
-" Bundle 'danchoi/ri.vim'
+" Plugin 'danchoi/ri.vim'
 
 " In-place evaluation
 "t9md/vim-ruby-xmpfilter
@@ -197,14 +198,14 @@ Bundle 'ngmy/vim-rubocop'
 " LIBRARIES
 " ---------
 
-Bundle 'L9'
-Bundle 'tpope/vim-repeat'
+Plugin 'L9'
+Plugin 'tpope/vim-repeat'
 
 " OTHER
 " -----
 
 " tmux support
-Bundle 'teranex/tslime.vim'
+Plugin 'teranex/tslime.vim'
 
 " Live editing of HTML, CSS, JS
 "jaxbot/brolink
@@ -221,3 +222,5 @@ Bundle 'teranex/tslime.vim'
 
 " Handle focus lost inside tmux
 "sjl/vitality.vim
+
+call vundle#end()
