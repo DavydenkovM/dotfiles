@@ -86,19 +86,18 @@ inoremap <S-Tab> <C-V><Tab>
 " cmap <Left>  <Nop>
 
 " No highlight search
-nnoremap <leader><F2> :nohlsearch<CR>
+nnoremap <leader>2 :nohlsearch<CR>
 
 " Fast examples
-nnoremap <leader><F3> :e<Space>~/Dropbox/docs/ruby_scripts/example.rb
+nnoremap <leader>3 :e<Space>~/Dropbox/docs/ruby_scripts/example.rb
 
 " Only use X clipboard when required
-nnoremap <Leader><F4> :set paste<CR>:read !xclip -o<CR>:set nopaste<CR>
+nnoremap <Leader>4 :set paste<CR>:read !pbpaste<CR>:set nopaste<CR>
 
 " Remove trailing whitespaces from file
-nnoremap <leader><F5> :%s/\s\+$//<CR>
+nnoremap <leader>5 :%s/\s\+$//<CR>
 
-
-nnoremap <leader><F6> :call RetabToggle()<CR>
+nnoremap <leader>6 :call RetabToggle()<CR>
 let g:file_retab = 0
 function! RetabToggle()
     if g:file_retab
@@ -173,6 +172,18 @@ nnoremap <leader>m zm
 nnoremap <leader>M zM
 nnoremap <leader>r zr
 nnoremap <leader>R zR
+
+let g:ctagdirs = "!/usr/local/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q . ".$HOME."/.rvm/gems/".system("rvm current | tr -d '\n'")."/gems"
+map <Leader><8> :exe g:ctagdirs<CR>
+
+" You can use Ctrl-] to jump to a function.... Ctrl-p will jump back
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+map <C-p> :pop<CR>
+
+" You can cycle through multiple function definitions using 
+" these mappings. This maps to my windows key + left/right arrows
+map <M-right> :tnext<CR>
+map <M-left> :tprev<CR>
 
 source ~/.vim/bindings/cntrlp.vim
 source ~/.vim/bindings/qargs.vim

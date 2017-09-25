@@ -83,5 +83,7 @@ alias guard='guard --no-bundler-warning'
 # Start week from Monday
 alias cal='cal -m'
 
+alias esh='eval `ssh-agent` && ssh-add ~/.ssh/id_rsa_davydenkov'
+
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
