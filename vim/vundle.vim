@@ -77,6 +77,7 @@ Plugin 'vim-scripts/taglist.vim'
 
 " EDITING
 " -------
+Plugin 'editorconfig/editorconfig-vim'
 " Quickfix navigation and useful pair of mappings
 Plugin 'tpope/vim-unimpaired'
 
