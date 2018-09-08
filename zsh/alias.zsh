@@ -84,6 +84,7 @@ alias guard='guard --no-bundler-warning'
 alias cal='cal -m'
 
 alias esh='eval `ssh-agent` && ssh-add ~/.ssh/id_rsa_davydenkov'
+alias nvim='nvim -S ~/dotfiles/vim/vimrc'
 
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local

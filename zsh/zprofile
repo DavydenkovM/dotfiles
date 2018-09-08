@@ -1,6 +1,3 @@
-eval `ssh-agent`
-ssh-add ~/.ssh/id_rsa_davydenkov
-
 [[ -s $HOME/.profile ]] && source $HOME/.profile
 
 # [[ $SSH_AGENT_PID -eq "" ]] && eval $(keychain --eval --agents ssh,gpg --quiet ~/.ssh/id_*[^pub])
@@ -94,14 +91,15 @@ export PATH=$PATH:/bin
 export PATH=$PATH:/usr/bin
 export PATH=$PATH:/usr/sbin
 export PATH=$PATH:/usr/local/bin
-export PATH=$PATH:$HOME/.kerl/19.0/bin
-export PATH=$PATH:$HOME/.kiex/bin
-export PATH="$HOME/.jenv/bin:$PATH"
+export PATH=~/bin:$PATH
+export PATH=$PATH:$HOME/.kerl/20.1/bin
+test -s "$HOME/.kiex/scripts/kiex" && source "$HOME/.kiex/scripts/kiex"
 export PATH=$PATH:$HOME/opt/scala-2.11.8/bin
-source "$HOME/.kiex/elixirs/elixir-1.3.4.env"
-eval "$(jenv init -)"
+[[ -s "$HOME/.kiex/elixirs/elixir-1.3.4.env" ]] && source "$HOME/.kiex/elixirs/elixir-1.3.4.env"
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 # Keyboard sppedup
-xset r rate 200 60
+# xset r rate 200 60
 
 export BROWSER=/usr/bin/google-chrome-stable
+export PATH="/usr/local/opt/ansible@2.0/bin:$PATH"
